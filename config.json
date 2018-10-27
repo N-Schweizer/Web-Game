@@ -1,3 +1,7 @@
 {
-    "server_port": 3000
+    "server_port": 3000,
+    "port": 5432,
+    "user": "postgres",
+    "password": "postgres",
+    "host": "localhost"
 }

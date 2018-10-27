@@ -1,5 +1,4 @@
 const {Pool,Client } = require('pg')
-var config = require(process.argv[2]);
 var databaseConfig = require('../config.json');
 const pool = new Pool(databaseConfig);
 
